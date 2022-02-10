@@ -9,6 +9,7 @@ equation, the technique to use and its required parameters (e.g. interval for th
 method).
 Specification:
 The program must contain the following features:
+
 ● An interactive GUI that enables the user to enter equations containing different
 functions such as: {poly, exp, cos, sin}. Reading from files must be available as
 well.
