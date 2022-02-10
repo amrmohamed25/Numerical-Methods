@@ -1,13 +1,19 @@
 # Numerical-Methods
+
 Objective:
+
 The aim of this assignment is to compare and analyze the behavior of numerical
 methods studied in class {Bisection, False-position, Fixed point, Newton-Raphson,
 Secant}.
+
 Description:
+
 You are required to implement a root finder program which takes as an input the
 equation, the technique to use and its required parameters (e.g. interval for the bisection
 method).
+
 Specification:
+
 The program must contain the following features:
 
 ● An interactive GUI that enables the user to enter equations containing different
