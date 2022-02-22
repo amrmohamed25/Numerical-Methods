@@ -146,7 +146,7 @@ def fixedPoint(xr, g, prec, iter):
     iters.setvar(value=int(iters.getvar()) + 1)
     if ea > prec:
         if iter == 1 or g(xr) == 0:
-            return xr, ea, iter
+            return xr, ea
         iter = iter - 1
         return fixedPoint(xr, g, prec, iter)
     else:
